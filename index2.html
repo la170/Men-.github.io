@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <link rel="stylesheet" href="./index2.css">
+</head>
+<body>
+    <header>
+        <div>
+            <div></div>
+            <h1>NOMBRE</h1>
+        </div>
+        <nav>
+            <ul class = "menu">
+                <li>
+                    <a href="./index.html" target="_self">
+                    <svg class="icon icon-home3"><use xlink:href="#icon-home3">
+                        <symbol id="icon-home3" viewBox="0 0 32 32">
+                            <path d="M32 19l-6-6v-9h-4v5l-6-6-16 16v1h4v10h10v-6h4v6h10v-10h4z"></path>
+                        </symbol></use></svg></a></li>
+                </li>
+                <li> <a href="#nosotros">Nosotros</a></li>
+                <li id="mostrar">Servicios
+                    <ul class = "submenu">
+                        <li><a href="#servicios1">Servicios1</a></li>
+                        <li><a href="#servicios2">Servicios2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contacto">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contenedor">
+        <section class="contenedor nosotros">
+            <div>
+                <h1 class = "titulo" id="nosotros">NOSOTROS</h1>
+                <div class="contenedor-nosotros">
+                    <img src="https://cdn.pixabay.com/photo/2014/02/19/13/41/van-gogh-269875_1280.jpg" class = "img">
+                    <div class = "contenedor-texto">
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas unde, voluptatem placeat illo vero veniam, nihil sequi cum dolorum, at quia odit minima voluptatibus iure quasi repellat odio molestiae aliquam possimus doloribus voluptate sint animi soluta! Porro molestiae quos suscipit assumenda nobis tenetur aliquid perspiciatis corrupti rem. Reprehenderit, quos? Repellendus quo quod asperiores temporibus, iusto, dolor facere eligendi cupiditate tempore totam in autem similique laborum optio alias consectetur est delectus obcaecati inventore suscipit repudiandae labore? Tempora accusamus non voluptates vitae totam consequatur quo unde sunt, dolore fugit minus dicta nihil excepturi autem, accusantium voluptatum quos aspernatur dignissimos magnam molestiae! Ducimus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor servicios">
+            <div>
+                <h1 class = "titulo">SERVICIOS</h1>
+                <div class="contenedor-servicios">
+                    <div>
+                        <h2 class="s" id="servicios1">Servicios1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo recusandae aperiam amet saepe tenetur quidem quasi assumenda quibusdam eaque modi dolore nulla sapiente quod voluptatem, rerum accusamus voluptates architecto iste corrupti tempora? Maiores ratione sunt inventore nulla cum earum eveniet quia ab doloribus eaque fuga voluptas qui similique non laudantium architecto perspiciatis, eius accusamus quod adipisci? Veritatis modi illum ipsa esse nihil laborum vitae quae similique maiores mollitia, necessitatibus aliquid?</p>
+                    </div>
+                    <div>
+                        <h2 class="s" id="servicios2">Servicios2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis optio quidem vitae explicabo magnam, quis, expedita porro repellat inventore, aliquid culpa sunt eum eveniet? Tenetur quis perspiciatis quasi molestias. Laborum dolore voluptates natus, quod soluta alias enim sit a sunt veniam vel dolorem deserunt necessitatibus accusamus est harum voluptate saepe. Reiciendis cumque labore voluptatem ea, corrupti sequi dolore. Quod voluptatem amet dolorum enim accusantium dignissimos, ad obcaecati quas officiis delectus?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <form class="contenedor contacto">
+            <div>
+                <h1 class = "titulo" id="contacto">CONTACTO</h1>
+                <div class="contenedor-contacto">
+                    Nombre<input type="text" class="input" placeholder="Ingresa tu nombre">
+                    Email<input type="text" class="input" placeholder="Ingresa tu email">
+                    Telefono<input type="text" class="input" placeholder="Ingresa tu telefono">
+                    Asunto<textarea name="desgription" class="asunto" placeholder="Ingrese asunto..."></textarea>
+                </div>
+                <div class="botton">
+                    <button class="boton">Enviar</button>
+                </div>
+            </div>
+        </form>
+        </section>
+    </main>
+</body>
+</html>
